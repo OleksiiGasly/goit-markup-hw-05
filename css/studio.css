@@ -1,0 +1,240 @@
+/* Button */
+.hero-button {
+  display: inline-block;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  padding: 10px 32px;
+  margin-top: 30px;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  height: 600px;
+}
+
+.overlay {
+  max-width: 1600px;
+  height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 200px;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: var(--background-dark-color);
+}
+
+.hero-title {
+  color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Section */
+.section {
+  padding-top: 94px;
+}
+
+.section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+/* Advantages */
+.advantages.list {
+  display: flex;
+}
+
+.advantages-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  border: none;
+  color: var(--grey-color);
+  background-color: var(--background-light-color);
+}
+
+.advantages .item {
+  width: 270px;
+}
+
+.advantages.list .item + .item {
+  margin-left: 30px;
+}
+
+.advantages .title {
+  margin-top: 30px;
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.advantages .item p {
+  margin-top: 10px;
+}
+
+/* Operations */
+.operations.section {
+  padding-bottom: 94px;
+}
+
+.operations.list {
+  display: flex;
+  margin-top: 50px;
+}
+
+.operations.list .item + .item {
+  margin-left: 30px;
+}
+
+/* Team */
+.team.section {
+  background-color: var(--background-light-color);
+}
+
+.team.section {
+  padding-bottom: 94px;
+}
+
+.team .title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.team.list {
+  display: flex;
+  margin-top: 50px;
+}
+
+.team.list .item {
+  width: 270px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  overflow: hidden;
+}
+
+.team.list .item + .item {
+  margin-left: 30px;
+}
+
+.team-member {
+  background-color: var(--white-color);
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.team-member p {
+  margin-top: 10px;
+}
+
+.team-contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: none;
+  margin-top: 16px;
+  padding: 0;
+}
+
+.team-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  color: var(--grey-color);
+}
+
+.team-social:hover,
+.team-social:focus {
+  background-color: var(--accent-color);
+}
+
+.team-icon {
+  fill: currentColor;
+}
+
+.team-social:hover .team-icon,
+.team-social:focus .team-icon {
+  fill: var(--white-color);
+}
+
+/* Clients */
+.clients.section {
+  padding-bottom: 94px;
+}
+
+.clients.section .list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.clients.section .list .item + .item {
+  margin-left: 30px;
+}
+
+.client {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  width: 170px;
+  height: 90px;
+  color: var(--grey-color);
+  border: 1px solid var(--grey-color);
+  border-radius: 4px;
+}
+
+.client:hover,
+.client:focus {
+  border: 1px solid var(--accent-color);
+}
+
+.client-icon {
+  fill: currentColor;
+}
+
+.client:hover .client-icon,
+.client:focus .client-icon {
+  fill: var(--accent-color);
+}
